@@ -79,9 +79,6 @@ def calculateScorePart2(input_text):
         round_score += my_points[i_play]
         score += round_score
 
-
-
-
     return score
 
 def main():
