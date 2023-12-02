@@ -54,6 +54,7 @@ def main():
     # input_file_name = "input_data_demo.txt"
     input_file_name = "input_data.txt"
     input = takeInputData(input_file_name)
+    
     solution_part_one = calculateSum(input)
     print(f"Part one: {solution_part_one}")
 
